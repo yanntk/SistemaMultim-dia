@@ -1,0 +1,5 @@
+Eu usei uma biblioteca java  utilizou a biblioteca javax.imageio.ImageIO para ler e escrever imagens.
+A biblioteca javax.swing.JFileChooser é usada para permitir que o usuário acesse um arquivo de imagem.
+A classe FileNameExtensionFilter é usada para filtrar os tipos de arquivo que o usuário pode selecionar.
+foi compilado no laboratori mais ouve problemas ao adicionar imagem..
+estou tentando criar outro modelo ate o dia 29 , se não conseguir mando essa opção.
