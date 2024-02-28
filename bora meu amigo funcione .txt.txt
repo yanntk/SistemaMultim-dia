@@ -1,0 +1,17 @@
+O trabalho esta sendo desenvolvido por Yan dos Santos e Dele carlindo. 
+Eu usei uma biblioteca java  utilizou a biblioteca javax.imageio.ImageIO para ler e escrever imagens.
+A biblioteca javax.swing.JFileChooser é usada para permitir que o usuário acesse um arquivo de imagem.
+A classe FileNameExtensionFilter é usada para filtrar os tipos de arquivo que o usuário pode selecionar.
+foi compilado no laboratori mais ouve problemas ao adicionar imagem..
+estou tentando criar outro modelo ate o dia 29 , se não conseguir mando essa opção.
+
+Desenvolver um programa como o descrito pode ser um pouco complexo e demorado, por isso vou fornecer uma orientação geral sobre como abordar esse problema. pode usar as bibliotecas AWT e ImageIO do Java para criar a interface gráfica e manipular a imagem.
+
+Crie uma interface gráfica com um botão "Abrir" e um painel para exibir a imagem. pode usar o JFrame e o JButton da biblioteca AWT para isso.
+Adicione um ouvinte de eventos ao botão "Abrir" para que, quando clicado, abra uma caixa de diálogo para selecionar um arquivo de imagem. pode ser usado  o JFileChooser para isso.
+Quando uma imagem for selecionada, pode usar a classe ImageIO para carregá-la em memória.
+Para exibir a imagem, crie um JLabel e defina a imagem como seu ícone. Em seguida, adicione o JLabel ao painel de exibição.
+Para exibir os canais de cor separadamente, 
+1pode usar a classe BufferedImage para obter as matrizes de pixels da imagem original e, em seguida, 
+2criar novas imagens com as matrizes de pixels modificadas para mostrar apenas um canal de cor.
+3Para mostrar as imagens com os canais separados, pode criar novos JLabels com as novas imagens e adicioná-los ao painel de exibição.
